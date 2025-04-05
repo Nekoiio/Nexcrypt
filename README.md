@@ -1,3 +1,33 @@
+# 🔐 nexcrypt
+
+A simple command-line file encryption and decryption tool using AES-GCM and a password-based key. Secure and minimal, designed for fast local encryption from the terminal.
+
+---
+
+## ✅ Features
+
+- AES-256-GCM encryption for confidentiality and integrity
+- Key derivation using PBKDF2
+- Password prompt with hidden input
+- CLI interface with flags
+- Lightweight and easy to install
+
+---
+
+## 📦 Dependencies
+
+Make sure you have the following installed:
+
+- Python 3.x
+- [`pycryptodome`](https://pypi.org/project/pycryptodome/)
+
+You can install it using:
+
+```bash
+pip install pycryptodome
+```
+---
+
 ## 🚀 Setup
 
 To install `nexcrypt` as a global command:
